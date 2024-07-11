@@ -1,0 +1,190 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  font-family: Poppins;
+  box-sizing: border-box;
+  outline: none;
+  color: #ffff;
+}
+:root{
+  --prime : #00ff34;
+}
+body{
+  background-color: #131b2b;
+}
+.navbar{
+  width: 100%;
+  display: flex;
+  position: fixed;
+  padding: 30px 120px;
+  background-color: black;
+  justify-content: space-between;
+  z-index: 1111;
+  transition: 0.5s ease;
+}
+.logo{
+  font-size: 2.8em;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.logo B{
+  color: #00ff34;
+}
+ol{
+  display: flex;
+  margin: auto 0;
+}
+ol li{
+  list-style: none;
+  margin-right: 20px;
+}
+ol li a{
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+ol li:hover a {
+  color: #00ff34;
+}
+.view{
+  width: 100%;
+  min-height: 80vh;
+  position: inherit;
+}
+.home{
+  display: flex;
+  min-height: 120vh;
+  align-items: center;
+  justify-content: center;
+  clip-path: polygon(0 0,100% 0,100% 100%,80% 95%,0 100%);
+}
+.banner{
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  background: url("/css/curl.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: brightness(40%);
+}
+.highlights{
+  width: 70%;
+  position: relative;
+  display: inline-block;
+  z-index: 1111;
+}
+.highlights h3{
+  display: inline;
+  font-size: 2vw;
+  padding: 5px 20px;
+  font-weight: lighter;
+  text-transform: capitalize;
+  border-left: 3px solid #00ff34;
+}
+.highlights h1{
+  font-size: 9vw;
+  text-align: center;
+  font-weight: normal;
+}
+.highlights h1 b{
+  color: #00ff34;
+  font-weight: 800;
+  font-family: sans-serif;
+}
+.highlights .tagline{
+  font-size: 1.2vw;
+  text-align: center;
+  font-weight: normal;
+}
+button{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: 800;
+  padding: 5px 40px;
+  font-size: 1.5vh;
+  margin-top: 1.2em;
+  color: #00ff34;
+  border: 2px solid #00ff34;
+  border-radius: 50px;
+  background: transparent;
+  text-transform: uppercase;
+  transition: 0.3s ease;
+  margin-top: 50px;
+}
+button:hover{
+  color: #ffff;
+  cursor: pointer;
+  letter-spacing: 3px;
+  background: #00ff34;
+}
+span{
+  color: #00ff34;
+}
+
+.main{
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 50px;
+}
+.main h3{
+  font-size: 5vw;
+  position: relative;
+  text-align: center;
+  padding-top: 100px;
+  display: inline-block;
+}
+.main h3:before{
+  position: absolute;
+  content: '';
+  background: #00ff34;
+  height: 3px;
+  width: 30%;
+  right: -15px;
+  bottom: 0;
+  border-radius: 50px;
+}
+.content{
+  position: relative;
+  display: flex;
+  width: 100%;
+  padding: 0 30px;
+  justify-content: center;
+}
+#r{
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
+.about .content .cols{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding-right: 500px;
+
+}
+.cols h3 b{
+  font-size: 20px;
+  margin-right: 2px;
+}
+.cols h3 button{
+  position: relative;
+  top: 20px;
+  color: azure;
+  background: #00ff34;
+  padding: 5px 20px;
+  text-transform: capitalize;
+}
+.cols h3 button:hover{
+  position: relative;
+  top: 20px;
+  color: #000;
+  background: #ffff;
+  padding: 5px 20px;
+  text-transform: capitalize;
+}
+
